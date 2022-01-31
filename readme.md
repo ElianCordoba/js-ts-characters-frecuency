@@ -2,6 +2,23 @@
 
 When building a tokenizer to parse Typescript or Javascript (esbuild, SWC, TSC, etc) consider this finding when writing the `switch` statement cases and their order, the least checks you make the faster ir will be. Not all characters are created equal, a whitespace (100) is more that 1500 times more frecuent than % (37)
 
+## How the character counter works
+
+- It traversers all the folders and subfolders recursively that it founds inside the `data` forlder in the root directory of this repository
+- Finds every file but only counts the ones with the following extensions
+  - `.ts`
+  - `.tsx`
+  - `.js"`
+  - `.jsx`
+  - `.mts`
+  - `.mjs`
+  - `.cts` 
+  - `.cjs`
+  - `.d.ts` 
+  - `.d.mts`
+  - `.d.cts`
+- Scans every character (reading the ASCII code) and count the number of occurrences
+
 ## Run it yourself
 
 - Create a `data` and inside clone the repositories you want to scan
@@ -13,7 +30,7 @@ npm run start
 
 - Check the results
 
-### Outputs
+## Outputs
 
 `output.json`: The key is the ascii code, the value is the number of occurrences.
 
@@ -144,5 +161,4 @@ _Table generated with [this website](https://tableconvert.com/json-to-markdown)_
 ![All characters but letters and digits ploted](./img/without-letters-and-digits.png)
 
 #### Without letters and digits and whitespaces
-All characters but letters and digits ploted
-![All characters but letters and whitespaces](./img/without-whitespaces.png)
+![All characters but letters, digits and whitespaces ploted](./img/without-whitespaces.png)
