@@ -1,0 +1,6 @@
+.vscode
+data
+tests
+dist
+node_modules
+internal

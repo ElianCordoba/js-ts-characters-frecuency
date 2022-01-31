@@ -1,0 +1,18 @@
+{
+  "name": "js-ts-characters-frecuency",
+  "version": "1.0.0",
+  "scripts": {
+    "compile-output": "go run ./src/character_couter.go",
+    "consume-output": "tsc -p tsconfig.json && node dist/consumeOutput.js",
+    "start": "npm run compile-output && npm run consume-output"
+  },
+  "author": "Elian Cordoba",
+  "license": "ISC",
+  "dependencies": {
+    "papaparse": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "@types/papaparse": "^5.3.2"
+  }
+}
