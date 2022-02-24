@@ -210,14 +210,15 @@ _Letters and digits compacted_
 | X    | 88       | 171264     |
 | Z    | 90       | 116011     |
 
-Lowecase occurrences:  259447455
-Uppercase occurrences: 24498895
+
+- Lowecase occurrences:  `259447455`
+- Uppercase occurrences: `24498895`
 
 Lowercase letters are more than 10 times more likely to apper than uppercase ones
 
 ### Frecuency of digits
 
-| char | charCode | occurences |
+| Character | CharCode | Occurrences |
 |------|----------|------------|
 | 0    | 48       | 2555405    |
 | 1    | 49       | 2229300    |
