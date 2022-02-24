@@ -49,6 +49,9 @@ The following is an example ouput after running the script with the following re
   - react
   - Typescript
 
+### All charaters frecuency 
+_Letters and digits compacted_
+
 | Character | CharCode | Occurrences |
 |-----------|----------|-------------|
 | a - Z     | ---        | 283946350   |
@@ -150,7 +153,85 @@ The following is an example ouput after running the script with the following re
 | \u0018    | 24         | 1           |
 | ò         | 242        | 1           |
 
-_Table generated with [this website](https://tableconvert.com/json-to-markdown)_
+### Frecuency of letters
+
+| Character | CharCode | Occurrences |
+|------|----------|------------|
+| e    | 101      | 34744603   |
+| t    | 116      | 25436137   |
+| n    | 110      | 19417462   |
+| r    | 114      | 19124734   |
+| o    | 111      | 18643411   |
+| a    | 97       | 18203564   |
+| i    | 105      | 17726833   |
+| s    | 115      | 16256937   |
+| l    | 108      | 11030026   |
+| c    | 99       | 10415858   |
+| d    | 100      | 9545849    |
+| u    | 117      | 8105944    |
+| p    | 112      | 8053582    |
+| m    | 109      | 6732462    |
+| h    | 104      | 6229093    |
+| f    | 102      | 5835848    |
+| g    | 103      | 4948635    |
+| y    | 121      | 3963501    |
+| b    | 98       | 3913809    |
+| v    | 118      | 3094000    |
+| x    | 120      | 2473019    |
+| T    | 84       | 2138187    |
+| w    | 119      | 2117379    |
+| S    | 83       | 2085778    |
+| E    | 69       | 1878189    |
+| C    | 67       | 1846989    |
+| A    | 65       | 1675336    |
+| k    | 107      | 1616486    |
+| I    | 73       | 1471091    |
+| P    | 80       | 1331507    |
+| R    | 82       | 1233493    |
+| D    | 68       | 1232785    |
+| O    | 79       | 1195486    |
+| N    | 78       | 1111634    |
+| F    | 70       | 1024793    |
+| M    | 77       | 954343     |
+| j    | 106      | 940131     |
+| L    | 76       | 913130     |
+| B    | 66       | 825556     |
+| H    | 72       | 531091     |
+| U    | 85       | 522822     |
+| q    | 113      | 508663     |
+| V    | 86       | 479602     |
+| W    | 87       | 473618     |
+| G    | 71       | 449814     |
+| z    | 122      | 369489     |
+| K    | 75       | 260218     |
+| J    | 74       | 220435     |
+| Y    | 89       | 183409     |
+| Q    | 81       | 172314     |
+| X    | 88       | 171264     |
+| Z    | 90       | 116011     |
+
+Lowecase occurrences:  259447455
+Uppercase occurrences: 24498895
+
+Lowercase letters are more than 10 times more likely to apper than uppercase ones
+
+### Frecuency of digits
+
+| char | charCode | occurences |
+|------|----------|------------|
+| 0    | 48       | 2555405    |
+| 1    | 49       | 2229300    |
+| 2    | 50       | 1758438    |
+| 3    | 51       | 1086593    |
+| 4    | 52       | 919081     |
+| 5    | 53       | 810737     |
+| 6    | 54       | 728651     |
+| 8    | 56       | 694301     |
+| 7    | 55       | 628630     |
+| 9    | 57       | 621655     |
+
+
+_Tables generated with [this website](https://tableconvert.com/json-to-markdown)_
 
 ### Charts
 
